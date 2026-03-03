@@ -88,8 +88,8 @@ select {
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter/Inter_24pt-SemiBold.woff") format("woff")
-    url("../fonts/Inter/Inter_24pt-SemiBold.woff2");
+  src: url("../fonts/Inter/Inter_24pt-SemiBold.woff") format("woff"),
+    url("../fonts/Inter/Inter_24pt-SemiBold.woff2") format ("woff2");
   font-weight: 600;
   font-style: normal;
   display: swap;
@@ -179,11 +179,10 @@ select {
 .header {
   padding: 15px 0;
   width: 100%;
-  z-index: 1000;
-  position: fixed;
+  z-index: 10;
+  position: absolute;
   top: 0;
   left: 0;
-  transition: top 0.3s ease;
 }
 
 .header__wrapper {
