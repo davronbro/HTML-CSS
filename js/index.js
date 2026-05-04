@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
   
-  // Find all counters
   const counters = document.querySelectorAll('.counter');
   const animationDuration = 2000;
 
